@@ -19,15 +19,15 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's me</h3>
             <h1>Sidnei Alves</h1>
@@ -53,7 +53,7 @@
 
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Fullstack Developer</h3>
+            <h3>Fullstack Developer!</h3>
             <p>My name is Sidnei de Aquino Alves and I am passionate about technology. My first contact with programming
                 was in 2014, when a friend introduced me to Delphi. Despite having enjoyed the area, I only started to
                 focus on it in 2022, when I started studying web development.</p>
@@ -61,8 +61,99 @@
                 complete applications for the most diverse areas.</p>
             <a class="btn" href="#">Read More</a>
         </div>
-
     </section>
+
+    <section class="skills" id="skills">
+
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque vel id repellendus!
+                    Nostrum
+                    aperiam officiis eveniet harum officia voluptatem quibusdam deleniti iure, a ullam? Quibusdam
+                    necessitatibus accusamus error! Ipsa.</p>
+                <a class="btn" href="#">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque vel id repellendus!
+                    Nostrum
+                    aperiam officiis eveniet harum officia voluptatem quibusdam deleniti iure, a ullam? Quibusdam
+                    necessitatibus accusamus error! Ipsa.</p>
+                <a class="btn" href="#">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque vel id repellendus!
+                    Nostrum
+                    aperiam officiis eveniet harum officia voluptatem quibusdam deleniti iure, a ullam? Quibusdam
+                    necessitatibus accusamus error! Ipsa.</p>
+                <a class="btn" href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./assets/lee-campbell-unsplash.jpg" alt="Background">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/pexels.jpeg" alt="Background">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/canva.jpg" alt="Background">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="First Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input class="btn" type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Sidnei | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+        </div>
+    </footer>
 </body>
 
 </html>
