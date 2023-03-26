@@ -86,7 +86,7 @@ section {
 }
 
 .home .home-content h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -256,6 +256,7 @@ h2 span {
 
 .portfolio .portfolio-container .portfolio-box {
   position: relative;
+  height: 220px;
   border-radius: 2rem;
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
@@ -264,6 +265,7 @@ h2 span {
 
 .portfolio .portfolio-container .portfolio-box img {
   width: 100%;
+  object-fit: cover;
   transition: 0.5s ease;
 }
 
