@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
     <title>Portfolio</title>
     <!-- Scroll efects: https://scrollrevealjs.org/ -->
     <script defer src="https://unpkg.com/scrollreveal"></script>
@@ -14,149 +13,162 @@
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script defer src="script.js"></script>
     <!-- Icons source: https://boxicons.com/usage -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <a class="logo" href="#">Portfolio.</a>
+      <a class="logo" href="#">Portfolio.</a>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-        <nav>
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
     <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, It's me</h3>
-            <h1>Sidnei Alves</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>I create products and companies. Innovation is my passion.</p>
-            <div class="social-media">
-                <a target="_blank" href="https://www.facebook.com/neimestre" class='bx bxl-facebook'></a>
-                <a target="_blank" href="https://www.linkedin.com/in/sidnei-alves-20b547a5/"
-                    class='bx bxl-linkedin'></a>
-                <a target="_blank" href="https://github.com/dexter2k8" class='bx bxl-github'></a>
-            </div>
-            <a class="btn" target="_blank"
-                href="https://docs.google.com/document/d/e/2PACX-1vTDablxeYTnpHwlupyb7lp5O_SZ54EqLSl4Q7-EMGuEdhASPg9nYTvEHXS7DmG1GgU4eYe4P5IhEGu6/pub">Download
-                CV</a>
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Sidnei Alves</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>I create products and companies. Innovation is my passion.</p>
+        <div class="social-media">
+          <a target="_blank" href="https://www.facebook.com/neimestre" class="bx bxl-facebook"></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/sidnei-alves-20b547a5/"
+            class="bx bxl-linkedin"
+          ></a>
+          <a target="_blank" href="https://github.com/dexter2k8" class="bx bxl-github"></a>
         </div>
+        <a
+          class="btn"
+          target="_blank"
+          href="https://docs.google.com/document/d/1OHgILrJTDBpCUj9z2o0edKNEuO1oU9mn/edit?usp=sharing&ouid=103372315993349312803&rtpof=true&sd=true"
+          >Download CV</a
+        >
+      </div>
 
-        <figure>
-            <img src="./assets/home.png" alt="Photo">
-        </figure>
+      <figure>
+        <img src="./assets/home.png" alt="Photo" />
+      </figure>
     </section>
 
     <section class="about" id="about">
-        <figure>
-            <img src="./assets/about.png" alt="Photo">
-        </figure>
+      <figure>
+        <img src="./assets/about.png" alt="Photo" />
+      </figure>
 
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Fullstack Developer!</h3>
-            <p>My name is Sidnei de Aquino Alves and I am passionate about technology. My first contact with programming
-                was in 2014, when a friend introduced me to Delphi. Despite having enjoyed the area, I only started to
-                focus on it in 2022, when I started studying web development.</p>
-            <p>Currently I am able to work with several technologies aimed at both frontend and backend, developing
-                complete applications for the most diverse areas.</p>
-            <!-- <a class="btn" href="#">Read More</a> -->
-        </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Fullstack Developer!</h3>
+        <p>
+          My name is Sidnei de Aquino Alves and I am passionate about technology. My first contact
+          with programming was in 2014, when a friend introduced me to Delphi. Despite having
+          enjoyed the area, I only started to focus on it in 2022, when I started studying web
+          development.
+        </p>
+        <p>
+          Currently I am able to work with several technologies aimed at both frontend and backend,
+          developing complete applications for the most diverse areas.
+        </p>
+        <!-- <a class="btn" href="#">Read More</a> -->
+      </div>
     </section>
 
     <section class="skills" id="skills">
-
-        <h2 class="heading">My <span>Skills</span></h2>
-        <div class="skills-container">
-            <div class="skills-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Frontend development</h3>
-                <p>Single page applications programmer</p>
-                <p>HTML5 | CSS3 | JavaScript (ES6+) | React | NextJS | React Native</p>
-                <!-- <a class="btn" href="#">Read More</a> -->
-            </div>
-
-            <div class="skills-box">
-                <i class='bx bxl-nodejs'></i>
-                <h3>Backend development</h3>
-                <p>Database developer with REST API</p>
-                <p>Python (Django e Flask) | NodeJS | NestJS | PostgreSQL | MongoDB</p>
-                <!-- <a class="btn" href="#">Read More</a> -->
-            </div>
-
-            <div class="skills-box">
-                <i class='bx bx-desktop'></i>
-                <h3>Software development</h3>
-                <p>Delphi and VBA programmer</p>
-                <p>FireDAC | IntraWeb | Fast Report | IdFTP | REST Client | VBA for Access and Excel</p>
-                <!-- <a class="btn" href="#">Read More</a> -->
-            </div>
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Frontend development</h3>
+          <p>Single page applications programmer</p>
+          <p>HTML5 | CSS3 | JavaScript (ES6+) | React | NextJS | React Native</p>
+          <!-- <a class="btn" href="#">Read More</a> -->
         </div>
+
+        <div class="skills-box">
+          <i class="bx bxl-nodejs"></i>
+          <h3>Backend development</h3>
+          <p>Database developer with REST API</p>
+          <p>Python (Django e Flask) | NodeJS | NestJS | PostgreSQL | MongoDB</p>
+          <!-- <a class="btn" href="#">Read More</a> -->
+        </div>
+
+        <div class="skills-box">
+          <i class="bx bx-desktop"></i>
+          <h3>Software development</h3>
+          <p>Delphi and VBA programmer</p>
+          <p>FireDAC | IntraWeb | Fast Report | IdFTP | REST Client | VBA for Access and Excel</p>
+          <!-- <a class="btn" href="#">Read More</a> -->
+        </div>
+      </div>
     </section>
 
     <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Projects</span></h2>
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="./assets/rental.png" alt="Background">
-                <div class="portfolio-layer">
-                    <h4>Rental Wife</h4>
-                    <p>Platform for providing services aimed at the female audience.</p>
-                    <a target="_blank" href="https://rental-wife-blue.vercel.app/"><i
-                            class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="./assets/coming-Soon.png" alt="Background">
-                <div class="portfolio-layer">
-                    <h4>Coming Soon</h4>
-                    <p>A new project will be developed soon...</p>
-                    <a href="#portfolio"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="./assets/coming-Soon.png" alt="Background">
-                <div class="portfolio-layer">
-                    <h4>Coming Soon</h4>
-                    <p>A new project will be developed soon...</p>
-                    <a href="#portfolio"><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./assets/rental.png" alt="Background" />
+          <div class="portfolio-layer">
+            <h4>Rental Wife</h4>
+            <p>Platform for providing services aimed at the female audience.</p>
+            <a target="_blank" href="https://rental-wife-orpin.vercel.app/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
         </div>
+
+        <div class="portfolio-box">
+          <img src="./assets/admin.png" alt="Background" />
+          <div class="portfolio-layer">
+            <h4>Admin Life</h4>
+            <p>Dashboard page for billing purposes</p>
+            <a target="_blank" href="https://dexter2k8.github.io/adminLife/dashboard"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./assets/hub.png" alt="Background" />
+          <div class="portfolio-layer">
+            <h4>Admin Hub</h4>
+            <p>Dashboard for data analysis</p>
+            <a target="_blank" href="https://dexter2k8.github.io/complete-dashboard-nextjs/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="https://formsubmit.co/neimestre@yahoo.com.br" method="POST">
-            <div class="input-box">
-                <input type="text" name="name" placeholder="First Name" required>
-                <input type="email" name="email" placeholder="Email Address" required>
-            </div>
-            <div class="input-box">
-                <!-- <input type="text" placeholder="Last Name"> -->
-                <input type="text" name="_subject" placeholder="Email Subject">
-            </div>
-            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-            <input class="btn" type="submit" value="Send Message">
-        </form>
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="https://formsubmit.co/neimestre@yahoo.com.br" method="POST">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="First Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
+        </div>
+        <div class="input-box">
+          <!-- <input type="text" placeholder="Last Name"> -->
+          <input type="text" name="_subject" placeholder="Email Subject" />
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input class="btn" type="submit" value="Send Message" />
+      </form>
     </section>
 
     <footer>
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by Sidnei | All Rights Reserved</p>
-        </div>
-        <div class="footer-iconTop">
-        </div>
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Sidnei | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop"></div>
     </footer>
-</body>
-
+  </body>
 </html>
